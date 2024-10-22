@@ -371,6 +371,7 @@ export namespace AppointmentTooltip {
     }
     export interface ContentProps {
         appointmentData?: AppointmentModel;
+        appointmentResources: Array<ValidResourceInstance>;
         children?: React_2.ReactNode;
         formatDate: FormatterFn;
         recurringIconComponent: React_2.ComponentType<object>;
